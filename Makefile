@@ -7,6 +7,8 @@ BINARY= ./bin/# executable file directory
 OBJECT= ./obj/# object files directory
 SOURCE= ./src/# source files directory
 
+# OBJ_NAMES := $(patsubst ${SOURCE}%.cpp,${OBJECT}%.o,$(wildcard ${SOURCE}*.cpp))
+# 위의 문장 사용시 addfrefix는 필요없을 듯?
 OBJ_NAMES= # add object files name in here( XXX.o YYY.o ... )
 OBJS= $(addprefix $(OBJECT), $(OBJ_NAMES))
 

@@ -1,1 +1,0 @@
-# Here is object files directory (*.o files)

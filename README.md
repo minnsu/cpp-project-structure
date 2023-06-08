@@ -3,13 +3,12 @@ Default C++ Project Structure
 
 ```
 project/
-    ├── bin
-    │    └── [executable files]
-    ├── include
-    │    └── *.h
-    ├── obj
-    │    └── *.o
-    ├── src
+    ├── bin/
+    │    ├── [executable files]
+    |    └── *.o
+    ├── src/
+    |    ├── include/
+    |    |      └── *.hpp
     │    └── *.cpp
     ├── .gitignore
     ├── LICENSE
